@@ -18,7 +18,7 @@ Server.
 
 This function will take in a user’s name and a list of servers and return the appropriate server to assign that user. Each server has 5 core functions it will perform. Figure 1 showcases the typical interaction between 2 users on 2 different servers.
 
-![User Interaction](system_design.png)
+![User Interaction](system_desing.png)
 
 • Register a user
 • Follow a user
