@@ -111,12 +111,12 @@ test_system_load(NumberOfServers, NumberOfMessagesSent) ->
             end,
             lists:seq(1, NumberOfMessagesSent)),
 
-            Average = sum(lists:map( 
+            Total = sum(lists:map( 
                 fun(Server) ->
                     {message_queue_len, NumberOfMessagesInServer} = erlang:process_info(Server, message_queue_len),
                     NumberOfMessagesInServer
                 end, ServerPids)),
-                io:format("~p~n", [Average])
+                io:format("~p~n", [Total])
         end, 30, NumberOfServers).
 
 sum(L) -> 

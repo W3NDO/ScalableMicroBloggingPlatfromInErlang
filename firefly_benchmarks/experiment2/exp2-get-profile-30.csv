@@ -1,8 +1,0 @@
-run,wall_clock_time,cpu_time,number_of_servers,benchmark
-1,33.5088,513,30,get_profile
-2,115.9666,1521,30,get_profile
-3,50.2868,925,30,get_profile
-4,48.0726,1032,30,get_profile
-
-BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
-       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution

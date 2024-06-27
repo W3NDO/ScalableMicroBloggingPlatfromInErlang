@@ -1,1 +1,7 @@
 /benchmarks/experiment*
+/firefly_benchmarks_compiled
+/firefly_benchmarks
+/submission
+/Project-Erlang/*
+/erl_crash.dump
+/submission.zip
